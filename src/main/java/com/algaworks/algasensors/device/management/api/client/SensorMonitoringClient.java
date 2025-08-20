@@ -8,6 +8,7 @@ import org.springframework.web.service.annotation.GetExchange;
 import org.springframework.web.service.annotation.HttpExchange;
 import org.springframework.web.service.annotation.PutExchange;
 
+//client via tags do spring
 @HttpExchange("api/sensors/{sensorId}/monitoring")
 public interface SensorMonitoringClient {
 
